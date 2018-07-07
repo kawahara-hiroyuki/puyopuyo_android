@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ago"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:contentDescription="@string/todo" />
+
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@mipmap/blue"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+
+    </RelativeLayout>
+
+
+    <!--
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@mipmap/red"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="200dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@mipmap/purple"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="128dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@mipmap/yello"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="192dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo" />
+        -->
+
+</android.support.constraint.ConstraintLayout>
